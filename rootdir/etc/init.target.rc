@@ -289,9 +289,10 @@ service thermal-engine /system/bin/thermal-engine
     group root
 
 service mpdecision /system/bin/mpdecision --avg_comp
-    class late_start
+    class main
     user root
     group system
+    disabled
 
 service kickstart /system/bin/qcks -i /firmware-mdm/image/
     user root
