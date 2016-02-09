@@ -96,13 +96,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     SnapdragonCamera \
     camera.msm8960
- 
-# CRDA
-PRODUCT_PACKAGES += \
-    crda \
-    linville.key.pub.pem \
-    regdbdump \
-    regulatory.bin
 
 # Display
 PRODUCT_PACKAGES += \
