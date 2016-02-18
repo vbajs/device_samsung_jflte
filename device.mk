@@ -88,8 +88,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/bluetooth/bcm4335_prepatch.hcd:system/vendor/firmware/prepatch/bcm4335_prepatch.hcd
 
-#Camera Wrapper
+# Camera
 PRODUCT_PACKAGES += \
+    SnapdragonCamera \
     camera.msm8960
  
 # CRDA
