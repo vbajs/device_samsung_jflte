@@ -217,6 +217,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libril_jflte
 
+# SPN override
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/etc/selective-spn-conf.xml:system/etc/selective-spn-conf.xml
+
 # Thermal
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine.conf:system/etc/thermal-engine.conf \
