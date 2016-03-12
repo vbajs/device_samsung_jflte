@@ -341,10 +341,16 @@ public:
     }
 
     static bool isOutputDevice(audio_devices device) {
-        return audio_is_output_device((audio_devices_t)device);
+        if ((popcount(device) == 1) && ((device & ~DEVICE_OUT_ALL) == 0))
+             return true;
+         else
+             return false;
     }
     static bool isInputDevice(audio_devices device) {
-        return audio_is_input_device((audio_devices_t)device);
+        if ((popcount(device) == 1) && ((device & ~DEVICE_IN_ALL) == 0))
+             return true;
+         else
+             return false;
     }
     static bool isA2dpDevice(audio_devices device) {
         return audio_is_a2dp_device((audio_devices_t)device);
