@@ -190,6 +190,12 @@ PRODUCT_PACKAGES += \
     libOmxQcelp13Enc \
     libstagefrighthw
 
+# OTA Updates
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.ota.romname=AOSP-JF-6.0 \
+    ro.ota.version=$(shell date -u +%Y%m%d) \
+    ro.ota.manifest=http://romhut.com/roms/aosp-jf-6-0/ota.xml
+
 # Qualcomm
 PRODUCT_PACKAGES += \
     libcnefeatureconfig
