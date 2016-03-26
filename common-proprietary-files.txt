@@ -7,8 +7,6 @@ vendor/lib/libqti-perfd-client.so
 
 # Bluetooth firmware
 vendor/firmware/bcm4335.hcd
-vendor/firmware/bcm4335_murata.hcd
-vendor/firmware/bcm4335_semco.hcd
 
 # Audio
 lib/libacdbloader.so
