@@ -711,4 +711,8 @@
 
     <path name="voice-tx">
     </path>
+
+    <path name="echo-reference">
+        <ctl name="EC_REF_RX" value="SLIM_RX" />
+    </path>
 </mixer>
