@@ -33,7 +33,6 @@
     <ctl name="HDMI_RX_Voice Mixer Voice Stub" value="0" />
     <ctl name="HPHL DAC Switch" value="0" />
     <ctl name="HPHR DAC Switch" value="0" />
-    <ctl name="IIR1 INP1 MUX" value="ZERO" />
     <ctl name="Internal Route Config" value="6" />
     <ctl name="Main Mic Delay" value="0" />
     <ctl name="MICBIAS1 CAPLESS Switch" value="0" />
@@ -52,10 +51,8 @@
     <ctl name="PRI_RX Channels" value="One" />
     <ctl name="RX1 MIX1 INP1" value="ZERO" />
     <ctl name="RX1 MIX1 INP2" value="ZERO" />
-    <ctl name="RX1 MIX1 INP3" value="ZERO" />
     <ctl name="RX2 MIX1 INP1" value="ZERO" />
     <ctl name="RX2 MIX1 INP2" value="ZERO" />
-    <ctl name="RX2 MIX2 INP1" value="ZERO" />
     <ctl name="RX3 MIX1 INP1" value="ZERO" />
     <ctl name="RX4 DSM MUX" value="CIC_OUT" />
     <ctl name="RX4 MIX1 INP1" value="ZERO" />
@@ -410,8 +407,8 @@
         <ctl name="HPHR DAC Switch" value="1" />
         <ctl name="HPHL Volume" value="12" />
         <ctl name="HPHR Volume" value="12" />
-        <ctl name="RX1 Digital Volume" value="75" />
-        <ctl name="RX2 Digital Volume" value="75" />
+        <ctl name="RX1 Digital Volume" value="80" />
+        <ctl name="RX2 Digital Volume" value="80" />
         <ctl name="COMP1 Switch" value="1" />
     </path>
 
@@ -431,7 +428,7 @@
         <ctl name="RX1 MIX1 INP2" value="RX6" />
         <ctl name="EAR PA Gain" value="POS_6_DB" />
         <ctl name="DAC1 Switch" value="1" />
-        <ctl name="RX1 Digital Volume" value="83" />
+        <ctl name="RX1 Digital Volume" value="84" />
         <ctl name="ES325 RX2 Enable" value="1" />
     </path>
 
@@ -496,10 +493,10 @@
         <ctl name="RX2 MIX1 INP2" value="RX7" />
         <ctl name="HPHL DAC Switch" value="1" />
         <ctl name="HPHR DAC Switch" value="1" />
-        <ctl name="HPHL Volume" value="8" />
-        <ctl name="HPHR Volume" value="8" />
-        <ctl name="RX1 Digital Volume" value="82" />
-        <ctl name="RX2 Digital Volume" value="82" />
+        <ctl name="HPHL Volume" value="9" />
+        <ctl name="HPHR Volume" value="9" />
+        <ctl name="RX1 Digital Volume" value="84" />
+        <ctl name="RX2 Digital Volume" value="84" />
         <ctl name="ES325 RX2 Enable" value="1" />
     </path>
 
@@ -514,11 +511,10 @@
         <ctl name="DEC5 MUX" value="ADC2" />
         <ctl name="ADC2 Volume" value="3" />
         <ctl name="DEC5 Volume" value="84" />
-        <ctl name="IIR1 INP1 MUX" value="DEC5" />
-        <ctl name="RX1 MIX1 INP3" value="IIR1" />
-        <ctl name="RX2 MIX2 INP1" value="IIR1" />
-        <ctl name="IIR1 INP1 Volume" value="62" />
         <ctl name="Internal Route Config" value="0" />
+        <ctl name="TX3 HPF cut off" value="MIN_3DB_150Hz" />
+        <ctl name="TX4 HPF cut off" value="MIN_3DB_150Hz" />
+        <ctl name="TX5 HPF cut off" value="MIN_3DB_150Hz" />
         <ctl name="ES325 TX1 Enable" value="1" />
     </path>
 
@@ -527,17 +523,17 @@
         <ctl name="RX5 MIX1 INP1" value="RX1" />
         <ctl name="RX5 MIX1 INP2" value="RX2" />
         <ctl name="RX6 DSM MUX" value="DSM_INV" />
-        <ctl name="LINEOUT2 Volume" value="8" />
-        <ctl name="LINEOUT4 Volume" value="8" />
-        <ctl name="RX5 Digital Volume" value="84" />
+        <ctl name="LINEOUT2 Volume" value="10" />
+        <ctl name="LINEOUT4 Volume" value="10" />
+        <ctl name="RX5 Digital Volume" value="78" />
         <ctl name="RX1 MIX1 INP1" value="RX1" />
         <ctl name="RX2 MIX1 INP1" value="RX2" />
         <ctl name="HPHL DAC Switch" value="1" />
         <ctl name="HPHR DAC Switch" value="1" />
         <ctl name="HPHL Volume" value="0" />
         <ctl name="HPHR Volume" value="0" />
-        <ctl name="RX1 Digital Volume" value="74" />
-        <ctl name="RX2 Digital Volume" value="74" />
+        <ctl name="RX1 Digital Volume" value="70" />
+        <ctl name="RX2 Digital Volume" value="70" />
         <ctl name="COMP1 Switch" value="1" />
     </path>
 
@@ -549,15 +545,15 @@
         <ctl name="SLIM_0_RX Channels" value="One" />
         <ctl name="RX1 MIX1 INP1" value="RX1" />
         <ctl name="RX1 MIX1 INP2" value="RX6" />
-        <ctl name="EAR PA Gain" value="POS_2_DB" />
+        <ctl name="EAR PA Gain" value="POS_6_DB" />
         <ctl name="DAC1 Switch" value="1" />
         <ctl name="RX1 Digital Volume" value="84" />
     </path>
 
     <path name="voip-speaker-comm">
         <path name="spk" />
-        <ctl name="LINEOUT2 Volume" value="8" />
-        <ctl name="LINEOUT4 Volume" value="8" />
+        <ctl name="LINEOUT2 Volume" value="12" />
+        <ctl name="LINEOUT4 Volume" value="12" />
         <ctl name="RX5 Digital Volume" value="84" />
     </path>
 
