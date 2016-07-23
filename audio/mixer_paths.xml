@@ -412,10 +412,6 @@
         <ctl name="COMP1 Switch" value="1" />
     </path>
 
-    <path name="line">
-        <path name="headphones" />
-    </path>
-
     <path name="headset-mic">
         <path name="adc2" />
         <ctl name="ADC2 Volume" value="3" />
@@ -500,10 +496,6 @@
         <ctl name="ES325 RX2 Enable" value="1" />
     </path>
 
-    <path name="voice-line">
-        <path name="voice-headphones" />
-    </path>
-
     <path name="voice-headset-mic">
         <ctl name="SLIM_0_TX Channels" value="One" />
         <ctl name="ES325-AP Tx Channels" value="One" />
@@ -535,10 +527,6 @@
         <ctl name="RX1 Digital Volume" value="70" />
         <ctl name="RX2 Digital Volume" value="70" />
         <ctl name="COMP1 Switch" value="1" />
-    </path>
-
-    <path name="speaker-and-line">
-        <path name="speaker-and-headphones" />
     </path>
 
     <path name="voip-handset-comm">
