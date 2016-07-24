@@ -153,6 +153,7 @@ lib/hw/sensorhubs.msm8960.so
 
 # Thermal
 bin/thermal-engine
+lib/libthermalclient.so
 
 # Time services
 app/TimeService/TimeService.apk
