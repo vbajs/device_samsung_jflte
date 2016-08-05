@@ -431,12 +431,6 @@ service insthk /system/bin/insthk
     oneshot
     seclabel u:r:insthk_exec:s0
 
-# BSOD Killer
-service bsod_killer /system/bin/bsod_killer
-    user root
-    group shell
-    oneshot
-
 # LEDify
 service ledify /system/bin/ledify
     user root
