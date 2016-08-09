@@ -121,7 +121,6 @@ vendor/lib/libuiblur.so
 etc/firmware/a300_pfp.fw
 etc/firmware/a300_pm4.fw
 etc/firmware/vidc_1080p.fw
-etc/firmware/vidcfw.elf
 
 # HDCP
 bin/insthk
@@ -148,7 +147,6 @@ etc/sec_config
 bin/radish
 
 # Sensors
-lib/libgnustl_shared.so
 lib/libsam.so
 lib/libsensirion_j1.so
 lib/hw/sensors.msm8960.so
