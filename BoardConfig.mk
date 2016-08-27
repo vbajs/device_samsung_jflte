@@ -123,6 +123,7 @@ TARGET_POWERHAL_VARIANT := qcom
 TARGET_SYSTEM_PROP := $(COMMON_PATH)/system.prop
 
 # Recovery
+TARGET_RECOVERY_DENSITY := hdpi
 TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/etc/fstab.qcom
 
 # Releasetools
