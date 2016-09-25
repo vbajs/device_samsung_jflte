@@ -92,6 +92,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     camera.msm8960
 
+# Custom JDCTeam packages
+PRODUCT_PACKAGES += \
+    Toolbox
+
 # Display
 PRODUCT_PACKAGES += \
     copybit.msm8960 \
@@ -133,6 +137,10 @@ PRODUCT_COPY_FILES += \
 # Lights
 PRODUCT_PACKAGES += \
     lights.msm8960
+
+# LEDify
+PRODUCT_COPY_FILES += \
+    vendor/aosp/prebuilt/common/bin/ledify:system/bin/ledify
 
 # Loki
 PRODUCT_PACKAGES += \
