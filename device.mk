@@ -206,9 +206,10 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     ueventd.qcom.rc
 
-# RIL
+# Shim
 PRODUCT_PACKAGES += \
-    libril_jflte
+    libril_jflte \
+    libwvm_jflte
 
 # SPN override
 PRODUCT_COPY_FILES += \
