@@ -199,9 +199,13 @@ void gsm_properties()
 
 void cdma_properties(int sub)
 {
+    if ( sub == 1 )
+        property_set("ro.telephony.default_cdma_sub", "1");
+    else
+        property_set("ro.telephony.default_cdma_sub", "0");
+
     property_set("rild.libpath", "/system/lib/libsec-ril.so");
     property_set("ro.gps.set_privacy", "1");
-    property_set("ro.telephony.default_cdma_sub", sub == 1 ? "1" : "0");
     property_set("persist.eons.enabled", "false");
     property_set("persist.radio.snapshot_enabled", "1");
     property_set("persist.radio.snapshot_timer", "22");
