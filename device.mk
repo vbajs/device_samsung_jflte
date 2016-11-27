@@ -191,7 +191,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.ota.romname=AOSP-JF-7.0 \
     ro.ota.version=$(shell date -u +%Y%m%d) \
-    ro.ota.manifest=http://romhut.com/roms/aosp-jf-6-0/ota.xml
+    ro.ota.manifest=https://romhut.com/roms/aosp-jf-7-0/ota.xml
 
 # Qualcomm
 PRODUCT_PACKAGES += \
