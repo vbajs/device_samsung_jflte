@@ -47,8 +47,9 @@ BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom user_debug=31 zcache msm_rtb.f
 BOARD_KERNEL_BASE := 0x80200000
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000
 BOARD_KERNEL_PAGESIZE := 2048
-TARGET_KERNEL_SOURCE := kernel/samsung/jf
+LZMA_RAMDISK_TARGETS := recovery
 TARGET_KERNEL_CONFIG := aosp_jf_defconfig
+TARGET_KERNEL_SOURCE := kernel/samsung/jf
 
 # Audio
 BOARD_USES_ALSA_AUDIO := true
