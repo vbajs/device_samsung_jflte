@@ -1,0 +1,32 @@
+[
+  {
+    "remote": "github",
+    "repository": "LineageOS/android_device_qcom_common",
+    "target_path": "device/qcom/common"
+    "branch": "cm-14.1"
+  },
+  {
+    "remote": "github",
+    "repository": "LineageOS/android_device_samsung_qcom-common",
+    "target_path": "device/samsung/qcom-common"
+    "branch": "cm-14.1"
+  },
+  {
+    "remote": "github",
+    "repository": "LineageOS/android_external_stlport",
+    "target_path": "external/stlport"
+    "branch": "cm-14.1"
+  },
+  {
+    "remote": "github",
+    "repository": "lineageOS/android_kernel_samsung_jf",
+    "target_path": "kernel/samsung/jf"
+    "branch": "cm-14.1"
+  },
+  {
+      "remote": "github",
+      "repository": "TheMuppets/android_proprietary_vendor_samsung",
+      "target_path": "vendor/samsung",
+      "branch": "cm-14.1"
+  }
+]

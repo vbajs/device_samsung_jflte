@@ -17,8 +17,5 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit device parts.
+# Inherit from jflte device
 $(call inherit-product, device/samsung/jflte/device.mk)
-
-## Also get non-open-source specific aspects if available
-$(call inherit-product-if-exists, vendor/samsung/jf-common/jf-common-vendor.mk)
